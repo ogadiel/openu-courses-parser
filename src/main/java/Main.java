@@ -16,7 +16,7 @@ public class Main {
         try {
 
             //Loading an existing document
-            File file = new File(args[0]);
+            File file = new File("src/main/resources/catalogkorsim2017.pdf");
             PDDocument document = PDDocument.load(file);
 
             //Instantiate PDFTextStripper class
